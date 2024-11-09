@@ -6,6 +6,7 @@ html,
 body {
     scroll-behavior: smooth;
 }
+
 html {
     font-size: 62.5%;
 }
@@ -66,6 +67,7 @@ body {
 .herp-wrap {
     position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background: #e6f0ff;
     height: calc(100vh - 90px);
@@ -113,15 +115,11 @@ body {
     opacity: 0.9;
 }
 
-.hero {
-    margin-top: 8.13rem;
-}
-
-.hero .info {
+.herp-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.herp-wrap .sub-title {
     color: #687690;
     font-size: 1.125rem;
     font-weight: 500;
@@ -129,7 +127,7 @@ body {
     letter-spacing: 0.01125rem;
 }
 
-.hero .title {
+.herp-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -137,19 +135,19 @@ body {
     line-height: 1.19; /* 118.75% */
 }
 
-.hero .desc {
+.herp-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.78; /* 177.778% */
 }
-.hero-cta {
+.herp-wrap-cta {
     min-width: 170px;
     margin-top: 40px;
 }
 
-.hero img {
+.herp-wrap img {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
